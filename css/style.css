@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 header {
     background-image: url(../img/jumbo.png);
     background-size: cover;
@@ -11,6 +15,7 @@ header {
     color: white;
     position: relative;
 }
+
 
 #button {
     background-color: white;
@@ -29,8 +34,13 @@ header {
     clear: both;
 }
 
+
 .lf-float {
     float: left;
+}
+
+.rf-float {
+    float: right;
 }
 
 .container {
@@ -94,7 +104,8 @@ div.contain-header {
  .title-contain-header {
     padding: 20px 0px;
     text-align: center;
-    font-size: 3em;
+    font-size: 3.5em;
+    font-weight: bold;
 }
 
 div.contain-header p {
@@ -105,11 +116,13 @@ div.contain-header p {
 .button-scarica {  
     margin: 20px  0px 0px 20px;
     text-align: center;
-    width: 250px;
+    width: 280px;
     height: 50px;
     vertical-align: middle;
     border-radius: 20px;
     border: none;
+    font-size: 1.3em;
+    padding: 3px;
 }
 
 .button-browser:hover {
@@ -117,3 +130,27 @@ div.contain-header p {
     color: white;
 }
 
+div.descrizione-img {
+    width: 40%;
+    height: 100%;
+    padding: 150px 134px;
+    margin-right: 20px;
+}
+
+.altezza-section {
+    min-height: 500px;
+    border-bottom: 1px solid lightgray;
+}
+
+img.img-rana {
+    margin:100px;
+}
+
+div.descrizione-img h1 {
+    font-size: 3em;
+}
+
+div.descrizione-img p {
+    font-size: 1.2em;
+    line-height: 30px;
+}
