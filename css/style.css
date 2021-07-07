@@ -138,11 +138,17 @@ div.descrizione-img {
 }
 
 .altezza-section {
-    min-height: 500px;
-    border-bottom: 1px solid lightgray;
+    min-height: 740px;
+    max-height: 1000px;
 }
 
-img.img-rana {
+section .border-bottom {
+    border-bottom: 1px solid rgb(243, 240, 240);
+}
+
+img.img-rana,
+img.img-mago,
+img.img-mostro {
     margin:100px;
 }
 
@@ -153,4 +159,8 @@ div.descrizione-img h1 {
 div.descrizione-img p {
     font-size: 1.2em;
     line-height: 30px;
+}
+
+section.bg-lightgrey {
+    background-color: rgb(243, 240, 240);
 }
